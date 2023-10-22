@@ -1,2 +1,22 @@
+.holder {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+.item{
+	width:100px;
+	height:100px;
+	justify-content:center;
+    border: 2px solid red;
+	
+}
 
-/* Your CSS Code here. */
+.green{
+    background-color: green;
+ 
+}
+.blue{
+    background-color: blue;
+}
